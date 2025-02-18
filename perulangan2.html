@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var ulanglah = confirm("klik ok!");
+    var counter = 0;
+
+    while (ulanglah) {
+        counter++;
+        var bintang = "*".repeat(counter) + "<br>";
+        document.write(counter + ":" + bintang);
+        ulanglah = confirm("klik ok untuk menambah bintang, klik cancel untuk berhenti");
+    }
+    </script>
+</body>
+</html>
